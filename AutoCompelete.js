@@ -267,7 +267,7 @@ autoCompleteInputTag.addEventListener("keyup", (event)=>{
         productName.classList.add("productName");
         productName.append(filterproduct[i].title);
 
-        const productImage = document.createElement("div");
+        const productImage = document.createElement("img");
         productImage.classList.add("productImage");
         productImage.src = filterproduct[i].image;
 
