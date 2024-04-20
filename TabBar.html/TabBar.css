@@ -1,0 +1,70 @@
+body{
+    background-color: rebeccapurple;
+}
+
+.containter{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+    padding: 10px 20px;
+    user-select: none;
+}
+
+.slider{
+    height: 4px;
+    background-color: #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.tabMenus{
+    position: relative;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Home{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+}
+
+.Category{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+
+}
+
+.Favoriate{
+    background-color: greenyellow;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+
+
+}
+
+.Setting{
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    
+}
