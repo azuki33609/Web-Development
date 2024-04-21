@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.parent{
+    
+}
+
+.btn{
+    background-color: blue;
+   font-size: 20px;
+   width: 60px;
+   height: 60px;
+}
+
+.ToastAlert{
+    background-color:red;
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+
+}
+
+.ToastAlertFont{
+    font-size: 30px;
+    color: blueviolet;
+    padding: 10px;
+    position: relative;
+    transition: bottom 0.5s ease-in-out;
+
+}
