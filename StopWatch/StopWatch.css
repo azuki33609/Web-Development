@@ -1,0 +1,42 @@
+body{
+    background-color: dimgrey;
+}
+
+
+.stopwatch{
+    color: yellow;
+    font-size: 100px;
+}
+
+.containter{
+    text-align: center;
+    
+}
+
+.startbtn{
+    display: inline;
+    background-color: bisque;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.pausebtn{
+    display: inline;
+    background-color: bisque;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.continuesbtn{
+    display: inline;
+    background-color: bisque;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.restetbtn{
+    display: inline;
+    background-color: bisque;
+    margin: 5px;
+    font-size: 20px;
+}
